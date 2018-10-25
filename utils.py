@@ -16,5 +16,5 @@ def wit_response(message_text):
         pass
     return (entity, value)
 
-    resp = client.message(message_text)
 
+#print(wit_response("I live in Sweden"))
