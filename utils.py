@@ -1,3 +1,5 @@
+#AI-webhook.
+
 from wit import Wit
 
 access_token = "DSGVBKCSBXDLBIUIJVX5E32BSA4RSZ3O"
@@ -15,6 +17,3 @@ def wit_response(message_text):
     except:
         pass
     return (entity, value)
-
-
-#print(wit_response("I live in Sweden"))
