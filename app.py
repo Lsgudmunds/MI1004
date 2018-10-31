@@ -49,6 +49,8 @@ def webhook():
                         response = "Ok. So you live in {0}. I will send you top headlines from {0}".format(str(value))
                     elif entity == 'greetings':
                         response = "Hej!".format(str(value))
+                    elif entity == 'bye':
+                        response = "Hejdå, ha en fin dag!".format(str(value))
 
                     if response ==  None:
                         response = "Sorry, I didn't understand."
